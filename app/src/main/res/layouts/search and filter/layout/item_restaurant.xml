@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_item_restaurant"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--Image Food-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/img_food"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/imageView_Food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/list_food_1" />
+
+        </androidx.cardview.widget.CardView>
+        <!--content voucher-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_food"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView_RestaurantName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="We Food - Hủ Tiếu Nam Vang"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView_FoodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Hủ tiếu Nam Vang"
+                android:textColor="@color/txt_grey"
+                android:textSize="13dp" />
+
+            <!--Rating Star Content -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/ic_star"
+                    app:tint="@color/orange" />
+
+                <TextView
+                    android:id="@+id/textView_Rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center_vertical"
+                    android:text=" 4.1 (100+)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

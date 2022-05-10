@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView_Food"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_stall_noodle_bundau"/>
+                <ImageButton
+                    android:id="@+id/button_OnBack"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_arrow_back"
+                    android:background="#00000000"
+                    android:tint="@color/white"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-50dp"
+            android:orientation="vertical">
+            <!--Info Stall-->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginHorizontal="20dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="10dp"
+                android:backgroundTint="@color/white">
+                <!--Content-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="5dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:text="QUÁN CHUẨN KHIÊN XANH"
+                        android:textAlignment="center"
+                        android:textColor="@color/primary"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/textView_StallName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_extrabold"
+                        android:text="Bún Đậu Mắm Tôm Mẹt Tre - Hoàng Diệu 2"
+                        android:textAlignment="center"
+                        android:paddingVertical="5dp"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="117 Hoàng Diệu 2, Linh Trung, TP Thủ Đức"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Evaluate-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingHorizontal="30dp"
+                android:layout_marginTop="25dp"
+                android:weightSum="3"
+                android:orientation="horizontal">
+                <!--Rating-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_star"
+                        app:tint="@color/orange" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:text=" 4.1 (100+)"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <!--Sold-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/ic_basket"
+                        app:tint="@color/txt_grey" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:text=" 999+ Sold"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <!--Comment-->
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/img_comment_good"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="center_vertical"
+                        android:text=" Yummy! (988+)"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Menu-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:layout_marginTop="35dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu"
+                android:paddingBottom="5dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppins_extrabold"
+                android:textSize="15dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="700dp"
+                android:orientation="horizontal"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

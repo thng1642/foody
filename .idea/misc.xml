@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_signup.xml" value="0.17249240121580547" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1685" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/border_radius.xml" value="0.1" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/edt_food_note.xml" value="0.224" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_arrow_back.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_bag.xml" value="0.153" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_bell.xml" value="0.1685" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_close.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_delete.xml" value="0.1455" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_heart.xml" value="0.153" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_house.xml" value="0.153" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1685" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_navigate_next.xml" value="0.167" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_receipt.xml" value="0.1685" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_search.xml" value="0.153" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/ic_star.xml" value="0.2305" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/login_tab_fragment.xml" value="0.1" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/radius_btn.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/radius_btn_getstarted.xml" value="0.148" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/radius_edittext.xml" value="0.1645" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/round_btb.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/round_btn.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/round_corner.xml" value="0.153" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/vie_bg.xml" value="0.176" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawables/button/drawable/border_radius.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawables/button/drawable/radius_btn.xml" value="0.2065" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawables/button/drawable/round_btn.xml" value="0.1" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/font/font.xml" value="0.23703703703703705" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_account.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_order.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_stall.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/activity_voucher.xml" value="0.13796296296296295" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_account_tab.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_cart.xml" value="0.21770833333333334" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_favorite.xml" value="0.21770833333333334" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_home.xml" value="0.29431072210065645" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_notification.xml" value="0.21770833333333334" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/fragment_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/item_food.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/login_tab_fragment.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/signup_tab_fragment.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layout/slider_item.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-cart/drawable/ic_card.xml" value="0.167" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-cart/drawable/ic_edit.xml" value="0.167" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-cart/drawable/ic_location.xml" value="0.167" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-cart/drawable/ic_time.xml" value="0.167" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-cart/layout/item_cart.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-home/layout/item_categories.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-home/layout/item_food_near.xml" value="0.22" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-home/layout/item_popular_food.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-home/layout/item_recommend_food.xml" value="0.17314814814814813" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-notification/layout/item_notification.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-search/layout/activity_category.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-search/layout/item_food.xml" value="0.2" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/activity_account.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/activity_order.xml" value="0.18" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/activity_payment.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/activity_voucher.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/fragment_account_tab.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/item_order.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/item_voucher.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_cart.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_notification.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_user.xml" value="0.25280898876404495" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/activity_login.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/activity_main.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/activity_signup.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/fragment_cart.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/fragment_favorite.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/fragment_home.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/fragment_user.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/home/layout/item_food.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/fragment_cart.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/item_food.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/login_tab_fragment.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/onboarding/layout/signup_tab_fragment.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/order/layout/activity_dish_details.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/order/layout/activity_main.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/order/layout/activity_stall.xml" value="0.33" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/order/layout/activity_successful.xml" value="0.22" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/order/layout/item_food.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/payment/layout/item_food.xml" value="0.13855116514690982" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/search and filter/layout/activity_filter_food.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/search and filter/layout/item_food.xml" value="0.36666666666666664" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/layouts/search and filter/layout/item_restaurant.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/menu/item_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25416666666666665" />
+        <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1305" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

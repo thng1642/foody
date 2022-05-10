@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    android:layout_marginRight="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--Image Food-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                app:cardCornerRadius="15dp">
+                <ImageView
+                    android:id="@+id/imgView_Food"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/popular_banner_01" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/black"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="5dp">
+
+                    <TextView
+                        android:id="@+id/textView_FoodName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Most Loved Fried Chicken"
+                        android:textColor="@color/white"
+                        android:textSize="12dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/textView_Price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_extrabold"
+                        android:text="$120.00"
+                        android:textColor="@color/orange"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--Content -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingVertical="10dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ic_stick"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/ic_star"
+                    app:tint="@color/orange" />
+
+                <TextView
+                    android:id="@+id/textView_Rating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/ic_stick"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center_vertical"
+                    android:text=" 4.1 (100+)"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout
+    android:id="@+id/swipeRevealLayout_Notification"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_white"
+    app:mode="same_level"
+    app:dragEdge="right">
+
+    <!-- Your secondary layout here -->
+    <LinearLayout
+        android:id="@+id/layout_delete"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgButton_Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:src="@drawable/ic_delete"
+            android:layout_gravity="center"
+            android:tint="@color/white"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <!--Image Message-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/imageView_Message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_message_food" />
+        </androidx.cardview.widget.CardView>
+        <!--content message-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_Message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Most Loved Fried Chicken"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_Time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Pasta"
+                android:textColor="@color/txt_grey"
+                android:textAllCaps="true"
+                android:textSize="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

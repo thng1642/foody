@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    android:background="@color/bg_white"
+    tools:context=".CartFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp">
+
+        <ImageButton
+            android:id="@+id/button_OnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@color/bg_white"
+            android:tint="@color/txt_grey"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Image Message-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="-60dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="60dp">
+            <ImageView
+                android:id="@+id/imageView_Avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imguser_avatar" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            app:layout_constraintVertical_bias="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingHorizontal="15dp"
+            android:background="@drawable/vie_bg">
+
+            <include
+                layout="@layout/fragment_account_tab"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:text="v1.6.2"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/txt_grey"
+            android:textSize="12dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bebasneue_regular"
+            android:text="GOODFOOD"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

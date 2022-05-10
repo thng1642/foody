@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    android:background="@color/bg_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp">
+
+        <ImageButton
+            android:id="@+id/button_OnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@color/bg_white"
+            android:tint="@color/txt_grey"/>
+        <TextView
+            android:id="@+id/textView_CategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcv_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+</LinearLayout>

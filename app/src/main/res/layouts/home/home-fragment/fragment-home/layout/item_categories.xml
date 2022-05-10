@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/layout_item_category"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--Item Pizza-->
+        <RelativeLayout
+            android:layout_marginRight="5dp"
+            android:id="@+id/pizza_click"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border_radius"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgView_Categories"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_noodles" />
+
+            <TextView
+                android:id="@+id/textView_Categories"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/imgView_Categories"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="Bún phở"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

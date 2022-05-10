@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    android:background="@color/bg_white"
+    tools:context=".CartFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp">
+
+        <ImageButton
+            android:id="@+id/button_OnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@color/bg_white"
+            android:tint="@color/txt_grey"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cart"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_radius"
+                android:paddingVertical="10dp"
+                android:layout_marginVertical="30dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <!-- location-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:weightSum="5"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_location"
+                        android:tint="#b2bec3"/>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="140 Roadway Ave."
+                        android:gravity="center|left"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:layout_weight="3"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_edit"
+                        android:tint="@color/black"/>
+                </LinearLayout>
+
+                <!--delivery time-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:weightSum="5"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_time"
+                        android:tint="#b2bec3"/>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="25 - 30 min (ASAP)"
+                        android:gravity="center|left"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:layout_weight="3"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_edit"
+                        android:tint="@color/black"/>
+                </LinearLayout>
+
+                <!-- cash-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingHorizontal="20dp"
+                    android:weightSum="5"
+                    android:layout_marginVertical="10dp"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_card"
+                        android:tint="#b2bec3"/>
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cash"
+                        android:gravity="center|left"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textColor="@color/black"
+                        android:layout_weight="3"
+                        android:textStyle="bold"
+                        android:textSize="14dp" />
+                    <ImageButton
+                        android:id="@+id/imageButton_editCash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_edit"
+                        android:tint="@color/black"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:orientation="vertical">
+                <!--sub total-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subtotal"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/txt_grey"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 18.00"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/txt_grey"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--Delivery fee-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Delivery fee"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/txt_grey"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:textSize="13dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 2.50"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/txt_grey"
+                            android:layout_weight="1"
+                            android:textStyle="bold"
+                            android:textSize="13dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--Total -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Subtotal"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_extrabold"
+                            android:textColor="@color/black"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="$ 20.50"
+                            android:gravity="center|left"
+                            android:fontFamily="@font/poppins_extrabold"
+                            android:textColor="@color/black"
+                            android:layout_weight="3"
+                            android:textStyle="bold"
+                            android:textSize="17dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonPlaceOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_btn"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"
+                android:paddingVertical="15dp"
+                android:text="Place Order"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

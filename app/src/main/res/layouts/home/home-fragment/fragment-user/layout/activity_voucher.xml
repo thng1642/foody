@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingHorizontal="15dp"
+    android:background="@color/bg_white"
+    tools:context=".CartFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp">
+
+        <ImageButton
+            android:id="@+id/button_OnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            tools:ignore="ContentDescription,ObsoleteLayoutParam,RtlHardcoded"
+            android:src="@drawable/ic_arrow_back"
+            android:background="@color/bg_white"
+            android:tint="@color/txt_grey"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voucher"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="16dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/radius_btn_getstarted">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <!--Image Food-->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/image_kfc_voucher"
+                android:background="@color/primary"/>
+
+            <!--content voucher-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="10dp"
+                android:paddingVertical="5dp"
+                android:layout_weight="2"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="Holiday Bucket"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="KFCHAPPY"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/radius_btn_getstarted">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+            <!--Image Food-->
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/image_kfc_voucher"
+                android:background="@color/primary"/>
+
+            <!--content voucher-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="10dp"
+                android:paddingVertical="5dp"
+                android:layout_weight="2"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="Holiday Bucket"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="17dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/poppins_extrabold"
+                    android:text="KFCHAPPY"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

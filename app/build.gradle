@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 32
+    dataBinding.enabled = true
+
+    defaultConfig {
+        applicationId "hcmute.edu.vn.foodapp_16"
+        minSdk 28
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            res {
+                srcDirs 'src\\main\\res',
+                        'src\\main\\res\\layouts\\onboarding',
+                        'src\\main\\res\\layouts\\home',
+                        'src\\main\\res\\layouts\\order',
+                        'src\\main\\res\\layouts\\payment',
+                        'src\\main\\res\\layouts\\home\\home-fragment',
+                        'src\\main\\res\\layouts\\home\\home-fragment\\layout',
+                        'src\\main\\res\\layouts\\home\\home-fragment\\fragment-search\\layout',
+                        'src\\main\\res\\layouts\\home\\home-fragment\\fragment-search', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-notification', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-notification\\layout', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-home', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-home\\layout', 'src\\main\\res\\drawables', 'src\\main\\res\\drawables\\button', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-cart\\layout', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-cart', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-user', 'src\\main\\res\\layouts\\home\\home-fragment\\fragment-user\\layout', 'src\\main\\res\\layouts\\search and filter', 'src\\main\\res\\layouts\\search and filter\\layout'
+            }
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment:2.4.1'
+    implementation 'androidx.navigation:navigation-ui:2.4.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+
+    implementation 'com.google.android.material:material:1.1.0'
+
+    implementation 'com.etebarian:meow-bottom-navigation-java:1.2.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"
+
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+
+    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
+
+    //implementation 'com.github.smarteist:autoimageslider:1.4.0'
+}

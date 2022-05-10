@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--Image Food-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="15dp">
+            <ImageView
+                android:id="@+id/imageView_Food"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/list_food_1" />
+
+        </androidx.cardview.widget.CardView>
+        <!--content voucher-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_food"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView_FoodName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Most Loved Fried Chicken"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="x"
+                    android:textColor="@color/txt_grey"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/textView_Quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="2"
+                    android:textColor="@color/txt_grey"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/textView_Unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text=" Servings"
+                    android:textColor="@color/txt_grey"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Total: "
+                    android:textColor="@color/txt_grey"
+                    android:textSize="13dp" />
+                <TextView
+                    android:id="@+id/textView_Total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="$ 48.00"
+                    android:textColor="@color/txt_grey"
+                    android:textSize="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- status-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center|bottom">
+            <TextView
+                android:id="@+id/textView_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_extrabold"
+                android:textSize="8dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
