@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_signup.xml" value="0.17249240121580547" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/home/home-fragment/fragment-user/layout/fragment_account_tab.xml" value="0.13240740740740742" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/home/home-fragment/layout/fragment_user.xml" value="0.3546875" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_login.xml" value="0.1685185185185185" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/activity_signup.xml" value="0.33" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/login_tab_fragment.xml" value="0.17249240121580547" />
+        <entry key="..\:/FoodApp/app/src/main/res/layouts/onboarding/layout/signup_tab_fragment.xml" value="0.1" />
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1685" />
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/border_radius.xml" value="0.1" />
         <entry key="..\:/Nam 3_Ky 2/Lap trinh di dong/Bai tap/Tuan 08/BT Nhom/FoodApp/app/src/main/res/drawable/edt_food_note.xml" value="0.224" />
